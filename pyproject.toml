@@ -1,0 +1,19 @@
+[tool.poetry]
+package-mode = false
+name = "tidy-first"
+version = "0.1.0"
+description = ""
+authors = ["Ruairí O'Brien <1150322+ruarfff@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+numpy = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
